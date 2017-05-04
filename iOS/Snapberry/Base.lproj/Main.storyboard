@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Snapberry" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ByM-0o-B27">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aSz-ps-Hau">
+                                <rect key="frame" x="0.0" y="559" width="375" height="108"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="fZy-lZ-KE1"/>
+                                    <constraint firstAttribute="height" constant="108" id="mCl-uH-ypp"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No available messages" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meC-6h-fZn">
+                                <rect key="frame" x="0.0" y="559" width="375" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="t0Q-xA-K5n"/>
+                                    <constraint firstAttribute="width" constant="375" id="wc2-Fi-SZb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ByM-0o-B27" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="3ir-vx-glc"/>
+                            <constraint firstItem="meC-6h-fZn" firstAttribute="bottom" secondItem="ByM-0o-B27" secondAttribute="bottom" constant="-1" id="7lO-et-xs1"/>
+                            <constraint firstItem="aSz-ps-Hau" firstAttribute="leading" secondItem="ByM-0o-B27" secondAttribute="trailing" constant="-375" id="Abs-xc-tIa"/>
+                            <constraint firstItem="aSz-ps-Hau" firstAttribute="top" secondItem="ByM-0o-B27" secondAttribute="bottom" constant="-108" id="FSQ-c3-po2"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aSz-ps-Hau" secondAttribute="bottom" id="G4F-e9-qts"/>
+                            <constraint firstItem="ByM-0o-B27" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="GUz-nb-jPz"/>
+                            <constraint firstItem="ByM-0o-B27" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="NI1-cU-8LI"/>
+                            <constraint firstItem="meC-6h-fZn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ync-XC-6uk"/>
+                            <constraint firstItem="ByM-0o-B27" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="eHv-Kk-u2P"/>
+                            <constraint firstItem="meC-6h-fZn" firstAttribute="leading" secondItem="ByM-0o-B27" secondAttribute="trailing" constant="-375" id="mca-ve-v8R"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="msgLabel" destination="meC-6h-fZn" id="kUa-kc-Iwc"/>
+                        <outlet property="theMap" destination="ByM-0o-B27" id="pem-Ep-Tas"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>

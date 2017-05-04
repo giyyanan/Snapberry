@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11B7B4299514B2DEC9593BC8 /* Pods_Snapberry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4DE37291887794864B8A2B /* Pods_Snapberry.framework */; };
+		385D65F368D5969A47FEA862 /* Pods_SnapberryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21A0C9011C5F3DEA630CAD7 /* Pods_SnapberryTests.framework */; };
+		A6F43B436B29EB7B75B0828A /* Pods_SnapberryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D22B939232AD09FDD9724D /* Pods_SnapberryUITests.framework */; };
+		C07FCD161EB5541000F15FB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07FCD151EB5541000F15FB5 /* AppDelegate.swift */; };
+		C07FCD181EB5541000F15FB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07FCD171EB5541000F15FB5 /* ViewController.swift */; };
+		C07FCD1B1EB5541000F15FB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07FCD191EB5541000F15FB5 /* Main.storyboard */; };
+		C07FCD1D1EB5541000F15FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07FCD1C1EB5541000F15FB5 /* Assets.xcassets */; };
+		C07FCD201EB5541000F15FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07FCD1E1EB5541000F15FB5 /* LaunchScreen.storyboard */; };
+		C07FCD2B1EB5541000F15FB5 /* SnapberryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07FCD2A1EB5541000F15FB5 /* SnapberryTests.swift */; };
+		C07FCD361EB5541000F15FB5 /* SnapberryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07FCD351EB5541000F15FB5 /* SnapberryUITests.swift */; };
+		C07FCD441EB57F3400F15FB5 /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07FCD431EB57F3400F15FB5 /* CustomPointAnnotation.swift */; };
+		C09550E81EB9F04800BD9C2E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09550E71EB9F04800BD9C2E /* AVFoundation.framework */; };
+		C0D638E01EB98CFE0069A4F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0D638DF1EB98CFE0069A4F0 /* GoogleService-Info.plist */; };
+		C0D638E11EB98CFE0069A4F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0D638DF1EB98CFE0069A4F0 /* GoogleService-Info.plist */; };
+		C0D638E21EB98CFE0069A4F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0D638DF1EB98CFE0069A4F0 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C07FCD271EB5541000F15FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07FCD0A1EB5540F00F15FB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C07FCD111EB5540F00F15FB5;
+			remoteInfo = Snapberry;
+		};
+		C07FCD321EB5541000F15FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07FCD0A1EB5540F00F15FB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C07FCD111EB5540F00F15FB5;
+			remoteInfo = Snapberry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16BEF17C0109B9CD92F35C01 /* Pods-Snapberry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapberry.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snapberry/Pods-Snapberry.release.xcconfig"; sourceTree = "<group>"; };
+		1D4DE37291887794864B8A2B /* Pods_Snapberry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapberry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B90525EDE609DF1FACAD7B5 /* Pods-SnapberryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapberryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapberryUITests/Pods-SnapberryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4C9915914E3F69CC0F9EA6FB /* Pods-SnapberryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapberryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapberryUITests/Pods-SnapberryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		75D22B939232AD09FDD9724D /* Pods_SnapberryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapberryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7CB4BEDB8BEC1D57B3F40C /* Pods-SnapberryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapberryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapberryTests/Pods-SnapberryTests.release.xcconfig"; sourceTree = "<group>"; };
+		BAB1F23AB06E2F2862C6C10F /* Pods-SnapberryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapberryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapberryTests/Pods-SnapberryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C07FCD121EB5541000F15FB5 /* Snapberry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapberry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07FCD151EB5541000F15FB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C07FCD171EB5541000F15FB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C07FCD1A1EB5541000F15FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C07FCD1C1EB5541000F15FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C07FCD1F1EB5541000F15FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C07FCD211EB5541000F15FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07FCD261EB5541000F15FB5 /* SnapberryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapberryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07FCD2A1EB5541000F15FB5 /* SnapberryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapberryTests.swift; sourceTree = "<group>"; };
+		C07FCD2C1EB5541000F15FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07FCD311EB5541000F15FB5 /* SnapberryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapberryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07FCD351EB5541000F15FB5 /* SnapberryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapberryUITests.swift; sourceTree = "<group>"; };
+		C07FCD371EB5541000F15FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07FCD431EB57F3400F15FB5 /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
+		C09550E71EB9F04800BD9C2E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C0D638DF1EB98CFE0069A4F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D21A0C9011C5F3DEA630CAD7 /* Pods_SnapberryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapberryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4331B6C6CF3EFF49A16B2E1 /* Pods-Snapberry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapberry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snapberry/Pods-Snapberry.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C07FCD0F1EB5540F00F15FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09550E81EB9F04800BD9C2E /* AVFoundation.framework in Frameworks */,
+				11B7B4299514B2DEC9593BC8 /* Pods_Snapberry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07FCD231EB5541000F15FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385D65F368D5969A47FEA862 /* Pods_SnapberryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07FCD2E1EB5541000F15FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F43B436B29EB7B75B0828A /* Pods_SnapberryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6316A4AAC783AEFB5DFC67C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4331B6C6CF3EFF49A16B2E1 /* Pods-Snapberry.debug.xcconfig */,
+				16BEF17C0109B9CD92F35C01 /* Pods-Snapberry.release.xcconfig */,
+				BAB1F23AB06E2F2862C6C10F /* Pods-SnapberryTests.debug.xcconfig */,
+				7E7CB4BEDB8BEC1D57B3F40C /* Pods-SnapberryTests.release.xcconfig */,
+				4C9915914E3F69CC0F9EA6FB /* Pods-SnapberryUITests.debug.xcconfig */,
+				3B90525EDE609DF1FACAD7B5 /* Pods-SnapberryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C07FCD091EB5540F00F15FB5 = {
+			isa = PBXGroup;
+			children = (
+				C07FCD141EB5541000F15FB5 /* Snapberry */,
+				C07FCD291EB5541000F15FB5 /* SnapberryTests */,
+				C07FCD341EB5541000F15FB5 /* SnapberryUITests */,
+				C07FCD131EB5541000F15FB5 /* Products */,
+				6316A4AAC783AEFB5DFC67C0 /* Pods */,
+				F790766AF65646C3AE169113 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C07FCD131EB5541000F15FB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C07FCD121EB5541000F15FB5 /* Snapberry.app */,
+				C07FCD261EB5541000F15FB5 /* SnapberryTests.xctest */,
+				C07FCD311EB5541000F15FB5 /* SnapberryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C07FCD141EB5541000F15FB5 /* Snapberry */ = {
+			isa = PBXGroup;
+			children = (
+				C07FCD151EB5541000F15FB5 /* AppDelegate.swift */,
+				C07FCD171EB5541000F15FB5 /* ViewController.swift */,
+				C07FCD431EB57F3400F15FB5 /* CustomPointAnnotation.swift */,
+				C07FCD191EB5541000F15FB5 /* Main.storyboard */,
+				C07FCD1C1EB5541000F15FB5 /* Assets.xcassets */,
+				C07FCD1E1EB5541000F15FB5 /* LaunchScreen.storyboard */,
+				C0D638DF1EB98CFE0069A4F0 /* GoogleService-Info.plist */,
+				C07FCD211EB5541000F15FB5 /* Info.plist */,
+			);
+			path = Snapberry;
+			sourceTree = "<group>";
+		};
+		C07FCD291EB5541000F15FB5 /* SnapberryTests */ = {
+			isa = PBXGroup;
+			children = (
+				C07FCD2A1EB5541000F15FB5 /* SnapberryTests.swift */,
+				C07FCD2C1EB5541000F15FB5 /* Info.plist */,
+			);
+			path = SnapberryTests;
+			sourceTree = "<group>";
+		};
+		C07FCD341EB5541000F15FB5 /* SnapberryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C07FCD351EB5541000F15FB5 /* SnapberryUITests.swift */,
+				C07FCD371EB5541000F15FB5 /* Info.plist */,
+			);
+			path = SnapberryUITests;
+			sourceTree = "<group>";
+		};
+		F790766AF65646C3AE169113 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C09550E71EB9F04800BD9C2E /* AVFoundation.framework */,
+				1D4DE37291887794864B8A2B /* Pods_Snapberry.framework */,
+				D21A0C9011C5F3DEA630CAD7 /* Pods_SnapberryTests.framework */,
+				75D22B939232AD09FDD9724D /* Pods_SnapberryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C07FCD111EB5540F00F15FB5 /* Snapberry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07FCD3A1EB5541000F15FB5 /* Build configuration list for PBXNativeTarget "Snapberry" */;
+			buildPhases = (
+				B970EFA25E8DEA02F3681A35 /* [CP] Check Pods Manifest.lock */,
+				C07FCD0E1EB5540F00F15FB5 /* Sources */,
+				C07FCD0F1EB5540F00F15FB5 /* Frameworks */,
+				C07FCD101EB5540F00F15FB5 /* Resources */,
+				DCCBB84AF844C9F7DD624B8C /* [CP] Embed Pods Frameworks */,
+				34F7FC50A595039C9E3C0015 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snapberry;
+			productName = Snapberry;
+			productReference = C07FCD121EB5541000F15FB5 /* Snapberry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C07FCD251EB5541000F15FB5 /* SnapberryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07FCD3D1EB5541000F15FB5 /* Build configuration list for PBXNativeTarget "SnapberryTests" */;
+			buildPhases = (
+				A3B2E071D20C5F954DECC3F5 /* [CP] Check Pods Manifest.lock */,
+				C07FCD221EB5541000F15FB5 /* Sources */,
+				C07FCD231EB5541000F15FB5 /* Frameworks */,
+				C07FCD241EB5541000F15FB5 /* Resources */,
+				EB18C3C328FB476623A8E3C2 /* [CP] Embed Pods Frameworks */,
+				BE65F59A82E51995EA96A3E4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C07FCD281EB5541000F15FB5 /* PBXTargetDependency */,
+			);
+			name = SnapberryTests;
+			productName = SnapberryTests;
+			productReference = C07FCD261EB5541000F15FB5 /* SnapberryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C07FCD301EB5541000F15FB5 /* SnapberryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07FCD401EB5541000F15FB5 /* Build configuration list for PBXNativeTarget "SnapberryUITests" */;
+			buildPhases = (
+				A3A6CF437A70038A8CC3AA52 /* [CP] Check Pods Manifest.lock */,
+				C07FCD2D1EB5541000F15FB5 /* Sources */,
+				C07FCD2E1EB5541000F15FB5 /* Frameworks */,
+				C07FCD2F1EB5541000F15FB5 /* Resources */,
+				6682DE767EC1722C2341C667 /* [CP] Embed Pods Frameworks */,
+				D168D191B93EF6D416935D72 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C07FCD331EB5541000F15FB5 /* PBXTargetDependency */,
+			);
+			name = SnapberryUITests;
+			productName = SnapberryUITests;
+			productReference = C07FCD311EB5541000F15FB5 /* SnapberryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C07FCD0A1EB5540F00F15FB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AB;
+				TargetAttributes = {
+					C07FCD111EB5540F00F15FB5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					C07FCD251EB5541000F15FB5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C07FCD111EB5540F00F15FB5;
+					};
+					C07FCD301EB5541000F15FB5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C07FCD111EB5540F00F15FB5;
+					};
+				};
+			};
+			buildConfigurationList = C07FCD0D1EB5540F00F15FB5 /* Build configuration list for PBXProject "Snapberry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C07FCD091EB5540F00F15FB5;
+			productRefGroup = C07FCD131EB5541000F15FB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C07FCD111EB5540F00F15FB5 /* Snapberry */,
+				C07FCD251EB5541000F15FB5 /* SnapberryTests */,
+				C07FCD301EB5541000F15FB5 /* SnapberryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C07FCD101EB5540F00F15FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07FCD201EB5541000F15FB5 /* LaunchScreen.storyboard in Resources */,
+				C0D638E01EB98CFE0069A4F0 /* GoogleService-Info.plist in Resources */,
+				C07FCD1D1EB5541000F15FB5 /* Assets.xcassets in Resources */,
+				C07FCD1B1EB5541000F15FB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07FCD241EB5541000F15FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D638E11EB98CFE0069A4F0 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07FCD2F1EB5541000F15FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D638E21EB98CFE0069A4F0 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34F7FC50A595039C9E3C0015 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snapberry/Pods-Snapberry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6682DE767EC1722C2341C667 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapberryUITests/Pods-SnapberryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3A6CF437A70038A8CC3AA52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B2E071D20C5F954DECC3F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B970EFA25E8DEA02F3681A35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE65F59A82E51995EA96A3E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapberryTests/Pods-SnapberryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D168D191B93EF6D416935D72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapberryUITests/Pods-SnapberryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCCBB84AF844C9F7DD624B8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snapberry/Pods-Snapberry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB18C3C328FB476623A8E3C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapberryTests/Pods-SnapberryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C07FCD0E1EB5540F00F15FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07FCD181EB5541000F15FB5 /* ViewController.swift in Sources */,
+				C07FCD441EB57F3400F15FB5 /* CustomPointAnnotation.swift in Sources */,
+				C07FCD161EB5541000F15FB5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07FCD221EB5541000F15FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07FCD2B1EB5541000F15FB5 /* SnapberryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07FCD2D1EB5541000F15FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07FCD361EB5541000F15FB5 /* SnapberryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C07FCD281EB5541000F15FB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C07FCD111EB5540F00F15FB5 /* Snapberry */;
+			targetProxy = C07FCD271EB5541000F15FB5 /* PBXContainerItemProxy */;
+		};
+		C07FCD331EB5541000F15FB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C07FCD111EB5540F00F15FB5 /* Snapberry */;
+			targetProxy = C07FCD321EB5541000F15FB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C07FCD191EB5541000F15FB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C07FCD1A1EB5541000F15FB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C07FCD1E1EB5541000F15FB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C07FCD1F1EB5541000F15FB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C07FCD381EB5541000F15FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C07FCD391EB5541000F15FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C07FCD3B1EB5541000F15FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4331B6C6CF3EFF49A16B2E1 /* Pods-Snapberry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Snapberry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AB.Snapberry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C07FCD3C1EB5541000F15FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16BEF17C0109B9CD92F35C01 /* Pods-Snapberry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Snapberry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AB.Snapberry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C07FCD3E1EB5541000F15FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAB1F23AB06E2F2862C6C10F /* Pods-SnapberryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnapberryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AB.SnapberryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapberry.app/Snapberry";
+			};
+			name = Debug;
+		};
+		C07FCD3F1EB5541000F15FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7CB4BEDB8BEC1D57B3F40C /* Pods-SnapberryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnapberryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AB.SnapberryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapberry.app/Snapberry";
+			};
+			name = Release;
+		};
+		C07FCD411EB5541000F15FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9915914E3F69CC0F9EA6FB /* Pods-SnapberryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SnapberryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AB.SnapberryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Snapberry;
+			};
+			name = Debug;
+		};
+		C07FCD421EB5541000F15FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B90525EDE609DF1FACAD7B5 /* Pods-SnapberryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SnapberryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AB.SnapberryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Snapberry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C07FCD0D1EB5540F00F15FB5 /* Build configuration list for PBXProject "Snapberry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07FCD381EB5541000F15FB5 /* Debug */,
+				C07FCD391EB5541000F15FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07FCD3A1EB5541000F15FB5 /* Build configuration list for PBXNativeTarget "Snapberry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07FCD3B1EB5541000F15FB5 /* Debug */,
+				C07FCD3C1EB5541000F15FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07FCD3D1EB5541000F15FB5 /* Build configuration list for PBXNativeTarget "SnapberryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07FCD3E1EB5541000F15FB5 /* Debug */,
+				C07FCD3F1EB5541000F15FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07FCD401EB5541000F15FB5 /* Build configuration list for PBXNativeTarget "SnapberryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07FCD411EB5541000F15FB5 /* Debug */,
+				C07FCD421EB5541000F15FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C07FCD0A1EB5540F00F15FB5 /* Project object */;
+}
